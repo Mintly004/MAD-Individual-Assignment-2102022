@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".equallyBreakdown"
+    android:background="@drawable/blackboard"
+    >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="371dp"
+        android:layout_height="117dp"
+        android:fontFamily="@font/cabin_sketch_bold"
+        android:text="Custom Breakdown by Amount"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <EditText
+        android:id="@+id/totalAmount3"
+        android:layout_width="376dp"
+        android:layout_height="40dp"
+        android:alpha="0.5"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/cabin_sketch_bold"
+        android:hint="Please enter the total amount"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.256" />
+
+    <EditText
+        android:id="@+id/noOfPeople3"
+        android:layout_width="376dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:alpha="0.5"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/cabin_sketch_bold"
+        android:hint="Please enter the number of people"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="@color/white"
+
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <Button
+        android:id="@+id/submitButton3"
+        android:layout_width="374dp"
+        android:layout_height="36dp"
+        android:background="@drawable/round_btn"
+        android:fontFamily="@font/joti_one"
+        android:text="Submit"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/emptyLayout3"
+        android:layout_width="356dp"
+        android:layout_height="474dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661">
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/calculateButton3"
+        android:layout_width="374dp"
+        android:layout_height="36dp"
+        android:background="@drawable/round_btn"
+        android:fontFamily="@font/joti_one"
+        android:text="Calculate"
+        android:textSize="25dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <ImageButton
+        android:id="@+id/shareButton3"
+        android:layout_width="62dp"
+        android:layout_height="57dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img"
+        android:text="Button"
+        android:visibility="invisible"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.978" />
+
+
+</android.support.constraint.ConstraintLayout>
